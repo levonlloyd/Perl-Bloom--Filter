@@ -1,0 +1,20 @@
+syntax: glob
+
+# Temp files from vim
+.*.swp
+.*.swo
+
+# compiled python
+*.pyc
+
+# build artifacts
+build/*
+
+# gradle stuff
+.gradle*
+
+# trial temp stuff
+_trial_temp/
+
+# log file
+twistd.log
