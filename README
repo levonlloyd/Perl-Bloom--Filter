@@ -1,16 +1,10 @@
-Filter version 0.01
+Bloom-Filter version 0.1
 ===================
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the
-README file from a module distribution so that people browsing the
-archive can use it get an idea of the modules uses. It is usually a
-good idea to provide version information here so that people can
-decide whether fixes for the module are worth downloading.
+This is a clone of the Bloom::Filter project from CPAN
+(http://search.cpan.org/~mceglows/Bloom-Filter-1.0/Filter.pm)
+The main initial purpose of this extension is to add the ability to save
+a filter to a file and then later re-create the filter from the file.
 
 INSTALLATION
 
@@ -25,11 +19,11 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  blah blah blah
+  Digest::SHA1
 
 COPYRIGHT AND LICENCE
 
-Put the correct copyright and licence information here.
+(c) 2004 Maciej Ceglowski
 
-Copyright (C) 2004 A. U. Thor blah blah blah
+This is free software, distributed under version 2 of the GNU Public License (GPL).
 
